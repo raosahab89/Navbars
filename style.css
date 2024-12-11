@@ -1,0 +1,53 @@
+ul.nav1{display: flex;
+justify-content: space-evenly;
+list-style-type:none;
+background-color: #f29D13;
+height: 30px;
+padding: 10px;
+font-family: Poppins;
+align-items: center;
+border-radius: 8px;}
+
+
+
+ul.nav1 > li {cursor: url("./Cur1.png"), pointer;
+background-color: #f29D13;
+border-radius: 5px;
+padding: 0.3em;}
+
+ul.nav1 > li:hover {font-weight: bold;
+color: #f29D13;
+background-color: #000;
+font-family: Poppins;
+transition: 1s;}
+
+
+
+/* NAVBAR 2 START */
+
+
+ul.nav2 {display: flex;
+    justify-content: space-around;
+    background-color: #84a98c;
+    list-style-type: none;
+    height: 30px;
+    padding: 10px;
+    font-family: Merriweather;
+    align-items: center;
+    /* border-radius: 25px; */
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 05px;
+    border-top-right-radius: 05px;
+    border: 2px solid #274c77;}
+    
+    ul.nav2 > li {cursor: url("./Cur2.png"), pointer;
+               border-radius: 5px;
+        padding: 0.3em;}
+        
+        ul.nav2 > li:hover {font-weight: bold;
+        color:#fff;
+        font-family: Merriweather;
+        transition: 1s;
+    border: 1px solid #fff;}
+        
